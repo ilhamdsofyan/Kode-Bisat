@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">Tentang</a>
+      <a href="table.html">Tabel</a>
+      <a href="form.html">Form</a>
+    </nav>
+
+    <main>
+      <h1>Formulir Isian</h1>
+
+      <form action="#" method="get">
+        <div>
+          <label for="">Nama Lengkap</label>
+          <input name="nama" type="text" required minlength="3" />
+        </div>
+
+        <div>
+          <label for="">Jenis Kelamin</label>
+          <input type="radio" name="jk" id="" value="l" /> Laki-laki
+          <input type="radio" name="jk" id="" value="p" /> Perempuan
+        </div>
+
+        <div>
+          <label for="">Alamat</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+          <label for="">Email</label>
+          <input name="email" type="email" />
+        </div>
+
+        <div>
+          <label for="">Password</label>
+          <input name="password" type="password" />
+        </div>
+
+        <div>
+          <label for="">Nomor Telepon</label>
+          <input name="no_hp" type="number" />
+        </div>
+
+        <div>
+          <label for="">Warna Profil</label>
+          <input name="warna" type="color" />
+        </div>
+
+        <div>
+          <label for="">
+            <input type="checkbox" name="agree" id="" />
+            Saya setuju
+          </label>
+        </div>
+
+        <div>
+          <button type="submit">Kirim</button>
+        </div>
+      </form>
+    </main>
+
+    <footer>&copy; Copyright IDS</footer>
+  </body>
+</html>
