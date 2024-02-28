@@ -1,0 +1,31 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h-1 {
+  color: #4c51d1;
+}
+
+.btn {
+  background-color: blue;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(0, 0, 181);
+}
+
+.btn:active {
+  background-color: rgb(2, 2, 98);
+}
+
+section.article > p {
+  color: #4c51d1;
+}
+
+section h3::first-letter {
+  color: #4c51d1;
+}
